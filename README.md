@@ -23,8 +23,8 @@ To write a program to predict car prices using Linear Regression and Polynomial 
 ```
 /*
 Program to implement Linear and Polynomial Regression models for predicting car prices.
-Developed by: R Venkatramani
-RegisterNumber: 25010118    //   212225240182
+Developed by: R JAYENTHAN
+RegisterNumber: 212225240057
 */
 import pandas as pd
 import numpy as np
@@ -55,8 +55,8 @@ poly_model.fit(X_train,y_train)
 y_pred_poly=poly_model.predict(X_test)
 
 
-print("Name: R Venkatramani ")
-print("Reg No: 212225240182 ")
+print("Name: R JAYENTHAN ")
+print("Reg No: 212225240057 ")
 print("Linear Regression:")
 
 print(f"{'MSE'}: {mean_squared_error(y_test,y_pred_linear)}")
